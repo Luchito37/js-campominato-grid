@@ -1,0 +1,43 @@
+.section-header{
+    padding: 20px 0
+}
+
+.contain-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+}
+
+.dimension{
+    padding-right: 30px;
+}
+
+.button-click{
+    line-height: normal;
+}
+
+.section-cube{
+    background-color: #7fffd3;
+    padding: 150px 0;
+}
+
+.result-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.result-list a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    flex-basis: calc(100% / 10);
+    padding: 50px 0;
+}
